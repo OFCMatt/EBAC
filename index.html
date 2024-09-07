@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Equação de Segundo Grau</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculadora de Equação de Segundo Grau</h2>
+        <div class="input-group">
+            <label for="input-a">Coeficiente a:</label>
+            <input type="number" id="input-a" step="any" placeholder="Digite o coeficiente a">
+        </div>
+        <div class="input-group">
+            <label for="input-b">Coeficiente b:</label>
+            <input type="number" id="input-b" step="any" placeholder="Digite o coeficiente b">
+        </div>
+        <div class="input-group">
+            <label for="input-c">Coeficiente c:</label>
+            <input type="number" id="input-c" step="any" placeholder="Digite o coeficiente c">
+        </div>
+        <button id="calculate-btn">Calcular Raízes</button>
+        <button id="graph-btn">Exibir Parábola</button>
+        <div id="results"></div>
+        <div id="cartesian-plane">
+            <canvas id="parabolaChart"></canvas>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
