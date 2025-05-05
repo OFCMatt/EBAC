@@ -1,19 +1,17 @@
----
+## Estrutura do Repositório
 
-## 📁 Estrutura do Repositório
-
-- **Codes/**
+- **Codes**
   > Contém códigos-fonte (principalmente Python).
 
-- **Data Packs/**
+- **Data Packs**
   > Conjunto de arquivos e pacotes relacionados a dados, como datasets, arquivos CSV, JSON e outros formatos úteis e necessários para análise.
 
-- **Info Packs/**
+- **Info Packs**
   > Pacotes de informação, guias e documentações gerais.
 
 ---
 
-## 💡 Objetivo
+## Objetivo
 
 Este repositório foi criado com a intenção de:
 
@@ -23,7 +21,7 @@ Este repositório foi criado com a intenção de:
 
 ---
 
-## 🚀 Comandos uteis?
+## Comandos uteis?
 
 1. Clone:
    ```bash
